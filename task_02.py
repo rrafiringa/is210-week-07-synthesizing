@@ -8,7 +8,7 @@ import authentication
 import getpass
 
 
-def login(username, maxattempts):
+def login(username, maxattempts=3):
     """
     Args:
         username (string): username
